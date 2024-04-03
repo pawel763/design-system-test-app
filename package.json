@@ -18,6 +18,10 @@
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
+    "@oddbird/popover-polyfill": "^0.4.1",
+    "@sl-design-system/bingel-int": "^0.1.0",
+    "@sl-design-system/inline-message": "^0.2.5",
+    "@webcomponents/scoped-custom-element-registry": "^0.0.9",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"

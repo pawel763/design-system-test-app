@@ -1,7 +1,12 @@
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import '@oddbird/popover-polyfill';
+import '@webcomponents/scoped-custom-element-registry/scoped-custom-element-registry.min.js';
 
-import { AppModule } from './app/app.module';
+import { bootstrapApplication } from '@angular/platform-browser';
+import { AppComponent } from './app.component';
+import { setup } from '@sl-design-system/bingel-int';
 
+import '@sl-design-system/inline-message/register.js';
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+bootstrapApplication(AppComponent);
+
+setup();
